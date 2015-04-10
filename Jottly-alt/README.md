@@ -1,0 +1,1 @@
+I'm taking Bloc.io's UX Design intensive program. This project is an alternate exercise I'm working through to continue practicing my command line, HTML, and CSS skills (the original project's in my "Jottly" repo).
