@@ -1,6 +1,63 @@
- /* Sections
- ================================================== */
- /* Header */
+/* BUTTONS */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px; 
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; 
+  background-color: #009ae8; 
+  color: #fff;
+  font-size: 1.2em;
+  border: 0;
+  text-transform: uppercase; /* Why isn't this working? */
+  font-weight: 900;
+  padding:0.82em 2.5em;
+  cursor: pointer;
+  margin: 0;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  background: #0483c3;
+}
+
+.button:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  border: 1px solid #ccc;
+  padding: 0.75em 1em;
+  outline: none;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  font: 1.2em "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  margin: 0;
+  width: 90%;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+ /* HEADER */
  #header {
     background:url("../images/header.jpg") top center no-repeat;
     background-size: cover;
@@ -64,3 +121,21 @@
  #header p strong {
   color: #fff;
  }
+
+
+ /* BENEFITS */
+ #benefits {
+  padding: 4em 0 0;
+  text-align: center;
+ }
+
+#benefits h2 {
+  color: #009be8;
+  font-weight: 300;
+}
+
+#benefits p {
+  color: #9d9d9d;
+  font-size: 1.2em;
+}
+ 
