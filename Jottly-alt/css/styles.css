@@ -36,6 +36,7 @@ input[type="reset"]:active,
 input[type="button"]:active {
 }
 
+/* What is this for?? */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -112,7 +113,7 @@ select {
 
  #header p {
   color: #d5d5d5;
-  font-size: 1.33em;
+  font-size: 1.25em;
   line-height: 1.5;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   margin-bottom: 1.2em;
@@ -164,8 +165,8 @@ select {
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
   box-shadow: 0 1px 3px rgba(0,0,0,.2);
-  margin-top:3em;
-  height:400px;
+  margin-top: 3em;
+  height: 400px;
   position: relative;
 }
 
@@ -179,45 +180,49 @@ select {
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
   box-shadow: 0 1px 3px rgba(0,0,0,.2);
-  padding:1em 0;
-  margin-bottom:2em;
+  padding: 1em 0;
+  margin-bottom: 2em;
 }
 
 .pricebox header h3 {
-  color:#4d4d4d;
-  font-size:1.4em;
+  color: #4d4d4d;
+  font-size: 1.25em;
   text-transform: uppercase;
-  margin:0;
+  margin: 0;
   font-weight: 600;
 }
 
 .pricebox section button {
-  background:#2ecc71;
-  position:absolute;
-  bottom:1em;
-  width:90%;
-  left:0;
-  right:0;
-  margin:0 auto;
+  background: #2ecc71;
+  position: absolute;
+  bottom: 1em;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 0.82em 2.5em;
 }
 
 .pricebox section button:hover {
-  background:#1fae5c;
+  background: #1fae5c;
 }
 
 .pricebox section h4 {
-  display:inline-block;
-  color:#009be8;
+  display: inline-block;
+  color: #009be8;
   font-size: 6em;
   font-weight: 900;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 .pricebox section h4 span {
   font-size: 0.5em;
-  line-height: 1;
-  vertical-align: top;
+  vertical-align: super;
 }
 
 #pricing .pricebox section p {
@@ -226,15 +231,17 @@ select {
   text-shadow: none;
   line-height: 1;
   position: relative;
-  top: 1em;
+  top: 2em;
   font-size: 1.1em;
+  vertical-align: text-bottom;
 }
 
-.pricebox section ul {
-  margin-top: 3em;
+.pricebox ul {
+  list-style: none;
+  margin-top: -1.5em;
 }
 
 .pricebox section ul li {
   font-size: 1.2em;
-  margin-bottom: 1.2em;
+  margin: 0;
 }
